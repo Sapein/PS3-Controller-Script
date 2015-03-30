@@ -9,7 +9,7 @@ echo "This is to make Output.txt" > Output.txt
 clear #This just makes sure that the screen is cleared for this, to prevent screen clutter.
 
 #This introduces the script and lets the user know that this is only for Debian Wheezy. It gives the user two chances to cancel, one after 30 seconds, and another with their own input
-echo "This script is ONLY for Debian 7.8 "Wheezy" if you are not running this distrobution of linux please stop now." 
+echo "This script is ONLY for Debian 7.8 "Wheezy" if you are not running this distribution of linux please stop now." 
 echo "To do this please hit Control+C now."
 echo "Also remember, Sapein/Chanku is not liable to any damages caused to your computer by this script, it is provided as is."
 sleep 30 #sleeps for 30 seconds for user input
