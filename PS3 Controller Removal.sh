@@ -22,6 +22,13 @@ echo "Clearing screen..."
 sleep 10 
 clear
 
+if [ ! -d "~/.PS3Controller" ]
+then
+	echo "The directory used for the installation script is not found, perhaps you meant to install?"
+	echo "(Please run the installation script, or download it if you don't have it...)"
+	exit
+fi
+
 echo "Removing the packages..."
 sudo dpkg -r sixad
 
