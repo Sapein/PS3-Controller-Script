@@ -17,9 +17,9 @@ sleep 30 #sleeps for 30 seconds for user input
 echo "You have made no attempt to stop the script, however one last chance is to be given, to continue please type y or Y, otherwise the script will terminate."
 read cont #This gives the user one last change to 'escape' so to speak, this time waiting for user input.
 #this checks to make sure the user hasn't inputted y or Y and then shuts down the script after 30 seconds and clears the screen.
-if [ $cont = "y" ] 
+if [ $cont != "y" ] 
 then
-	if [ $cont = "Y" ]
+	if [ $cont != "Y" ]
 	then
 		echo "The Script has been terminated per user request"
 		sleep 30 #sleeps for 30 seconds
